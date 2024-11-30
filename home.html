@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Rabib - Professional Portfolio</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Header Styling */
+        header {
+            background-color: black;
+            color: white;
+            padding: 20px 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000; /* Ensure it stays on top of other content */
+        }
+
+        header nav ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+        }
+
+        header nav ul li {
+            margin: 0 20px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        header nav ul li a:hover {
+            text-decoration: underline;
+            color: #ddd;
+        }
+
+        /* Section Styling */
+        section {
+            padding: 40px 20px;
+            margin: 20px 0;
+            min-height: 100vh; /* Ensures sections have enough height */
+        }
+
+        /* Home Section Centering */
+        #home {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .home-content {
+            padding: 20px;
+        }
+
+        /* Footer Styling */
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        footer a {
+            color: #ddd;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Content Styling */
+        h1, p {
+            margin-bottom: 10px;
+        }
+
+        /* About Me Section */
+        #about {
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .about-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .row {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .column {
+            flex: 1;
+            padding: 20px;
+        }
+
+        .left {
+            max-width: 600px;
+            text-align: left;
+        }
+
+        .right {
+            max-width: 600px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* Corrected Image Rule for Right Column */
+        .right img {
+            width: 300px;
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 10px;
+        }
+
+        /* Styling for Row 2 */
+        .row:nth-child(2) {
+            flex-direction: column;
+            text-align: left;
+        }
+
+        .row:nth-child(2) p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+</style>
+</head>
+<body>
+
+    <!-- Header with navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects/Organization</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" style="display: flex; justify-content: center; align-items: center; text-align: center; padding: 40px 20px;">
+        <div class="home-content">
+            <h1>Mohammed Rabib</h1>
+            <p>B.S. in Information Technology - University of Texas at Dallas</p>
+            <p>Expected Graduation: Dec 2024</p>
+            <p>GPA: 3.84/4.00</p>
+            <!-- Display Image -->
+            <img src="files/utd-mace-1500-768x512-1.jpg" alt="UTD Image" style="width: 100%; max-width: 600px; height: auto; border-radius: 10px; margin-top: 20px;">
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about">
+        <div class="about-container">
+            <!-- Row 1 -->
+            <div class="row">
+                <!-- Left Column -->
+                <div class="column left">
+                    <h2>About Me</h2>
+                    <p><h1>Hey, I’m Mohammed Rabib.</h1></p>
+                    <p>
+                        I am currently pursuing a bachelor’s degree in Supply Chain Management and Analytics at the University of Texas at Dallas. I enjoy solving problems and taking on new challenges. I believe in always being open to learning and growing, not setting a limit for myself.
+                    </p>
+                </div>
+                <!-- Right Column -->
+                <div class="column right">
+                    <img src="files/D79891B2-F0B2-4216-99EF-67CFBA6257A6.jpeg" alt="Photo of Mohammed Rabib">
+
+                </div>
+            </div>
+            <!-- Row 2 -->
+            <div class="row">
+                <p>“Life may present with many challenges but none should go down without a fight”</p>
+                <p>
+                    I think my writing skills are standard; however, I believe there is room for improvement, and by practicing a lot, I can be at my absolute best.
+                </p>
+                <p>
+                    I think my oral communication improved a lot this semester. After taking part in this course, I learned a lot about how to communicate effectively, which I believe will help me going forward. Oral communication is really important in any career field, so I believe it is essential to be a strong communicator.
+                </p>
+                <p>
+                    In the beginning, I was a little worried and shaky about this, but then when I started taking part, I enjoyed it and, in fact, did it a few times to improve myself being in front of the camera in an interview. I think it will really help me as it gave me confidence, and it was a good way to practice for interviews.
+                </p>
+                <p>
+                    The presentation was a really good experience. Once again, my team members and I were a bit worried in the beginning, but we practiced a few times and started to feel comfortable. I think the topic was a good one too, which involved useful research, and I am really glad that I was able to take part in this. I learned to be calm in front of audiences and deliver a speech by providing useful information.
+                </p>
+                <p>
+                    My experience has been a good one so far. Although it is a school where most people are focused on academics and not so much on socializing, I was still able to make good connections and friends. I also took part in career fair events, which was an awesome experience. Overall, people are really friendly and supportive and also very focused on academics. I also met some really amazing professors from whom I learned a lot in class. Taking part in some of the assignments were really great experiences.
+                </p>
+                <p>
+                    I plan on doing an internship in the summer of 2025, and I am actively looking for opportunities and also applying.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects/Organization Section -->
+    <section id="projects" style="display: flex; justify-content: center; align-items: center; padding: 40px 20px;">
+        <div style="width: 100%; max-width: 900px; text-align: center;">
+            <h2>Projects/Organization</h2>
+            <table style="width: 100%; text-align: left; margin-top: 20px;">
+                <!-- Row 1 -->
+                <tr>
+                    <!-- Left Column: Text -->
+                    <td style="width: 50%; padding-right: 20px;">
+                        <b>Final Exam Essay</b>
+                        <p>Multinational corporations (MNCs) often exploit vulnerable populations in developing countries through unethical practices like child labor. This essay examines these issues, explores the role of Corporate Social Responsibility (CSR) in promoting ethical practices, and reviews steps taken by companies like Nike, Reebok, and Nestlé to address their past misconduct.</p>
+                    </td>
+                    <!-- Right Column: Embedded PDF -->
+                    <td style="width: 50%; padding-left: 20px;">
+                        <embed src="files/Final Exam Essay.pdf" width="100%" height="500px" type="application/pdf">
+                    </td>
+                </tr>
+
+                <!-- Row 2 -->
+                <tr>
+                    <!-- Left Column: Text -->
+                    <td style="width: 50%; padding-right: 20px;">
+                        <b>ITSS 3300</b>
+                        <p>MIS enhances career potential by improving efficiency, problem-solving, and productivity, making it essential for advanced roles in IT, supply chain management, and business analysis. Supply chain jobs often require skills like business analysis, statistical modeling, and software proficiency, such as Excel and SAP. Over the past five years, technology has transformed supply chain management, boosting efficiency and sustainability. Mobile devices have further streamlined processes like real-time tracking and inventory management while also supporting personal productivity through communication, learning, and financial transactions.</p>
+                    </td>
+                    <!-- Right Column: Embedded PDF -->
+                    <td style="width: 50%; padding-left: 20px;">
+                        <embed src="files/ITSS.pdf" width="100%" height="500px" type="application/pdf">
+                    </td>
+                </tr>
+
+                <!-- Row 3 -->
+                <tr>
+                    <!-- Left Column: Text -->
+                    <td style="width: 50%; padding-right: 20px;">
+                        <b>LN- Assignment 5</b>
+                        <p>Details about the assignment.</p>
+                    </td>
+                    <!-- Right Column: Embed DOCX file using Google Docs Viewer -->
+                    <td style="width: 50%; padding-left: 20px;">
+                        <embed src="files/LN- Assignment 5.pdf" width="100%" height="500px" type="application/pdf">
+                    </td>
+                </tr>
+
+                <!-- Row 4 -->
+                <tr>
+                    <!-- Left Column: Text -->
+                    <td style="width: 50%; padding-right: 20px;">
+                        <b>LN_FN_Assignment</b>
+                        <p>The current process of handling invoices is slow due to manual sorting, weekly meetings, and delayed reconciliation with vendors, causing inefficiency and dissatisfaction. To address this, implementing an electronic invoice management system can automate sorting, enable real-time verification, and streamline reconciliation. Capturing and analyzing data on purchase orders, discrepancies, and payments can further improve accuracy, speed, and decision-making, ultimately enhancing overall efficiency and vendor relationships.</p>
+                    </td>
+                    <!-- Right Column: Embedded PDF -->
+                    <td style="width: 50%; padding-left: 20px;">
+                        <embed src="files/LN_FN_Assignment - 2.pdf" width="100%" height="500px" type="application/pdf">
+                    </td>
+                </tr>
+
+                <!-- Row 5 -->
+                <tr>
+                    <!-- Left Column: Text -->
+                    <td style="width: 50%; padding-right: 20px;">
+                        <b>Networking Assignment</b>
+                        <p>The current process of handling invoices is slow due to manual sorting, weekly meetings, and delayed reconciliation with vendors, causing inefficiency and dissatisfaction. To address this, implementing an electronic invoice management system can automate sorting, enable real-time verification, and streamline reconciliation. Capturing and analyzing data on purchase orders, discrepancies, and payments can further improve accuracy, speed, and decision-making, ultimately enhancing overall efficiency and vendor relationships.</p>
+                    </td>
+                    <!-- Right Column: Embed DOCX file using Google Docs Viewer -->
+                    <td style="width: 50%; padding-left: 20px;">
+                        <embed src="files/Networking  Assignment.pdf" width="100%" height="500px" type="application/pdf">
+                    </td>
+                </tr>
+                <!-- Row 6 -->
+                <tr>
+                    <!-- Left Column: Text -->
+                    <td style="width: 50%; padding-right: 20px;">
+                        <b>Nomination</b>
+                        <p>The JSOM Student of the Year Award recognizes an undergraduate, graduate, or PhD student who excels academically, demonstrates leadership, contributes to student organizations, and engages in community service. The award celebrates an all-rounded student who embodies the core values of the Jindal School of Management. Thejeshwar Reddy, nominated for the award by Mohammed Rabib, is a strong candidate, maintaining a 3.7 GPA, earning a Teaching Assistant position, and being involved in student organizations such as the Finance Club and the Indian Student Organization. Thejeshwar showcased leadership by organizing career fair preparation workshops, helping over 100 students improve their resumes and interview skills, and is also dedicated to community service, tutoring high school students in math and English.</p>
+                    </td>
+                    <!-- Right Column: Embed DOCX file using Google Docs Viewer -->
+                    <td style="width: 50%; padding-left: 20px;">
+                        <embed src="files/Nomination%20Email.pdf" width="100%" height="500px" type="application/pdf">
+                    </td>
+                </tr>
+                <!-- Row 7 -->
+                <tr>
+                    <!-- Left Column: Text -->
+                    <td style="width: 50%; padding-right: 20px;">
+                        <b>Cover Letter</b>
+                    </td>
+                    <!-- Right Column: Embed PDF file using Google Docs Viewer -->
+                    <td style="width: 50%; padding-left: 20px;">
+                        <embed src="files/Cover%20Letter%20Draft.pdf" width="100%" height="500px" type="application/pdf">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" style="display: flex; justify-content: center; align-items: center; padding: 40px 20px;">
+        <div style="width: 100%; max-width: 1000px; text-align: center;">
+            <h2>Resume</h2>
+            <embed src="files/MSR Resume 2.pdf" width="95%" height="750px" type="application/pdf">
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" style="display: flex; justify-content: center; align-items: center; padding: 40px 20px;">
+        <div style="width: 100%; max-width: 800px; text-align: left;">
+            <h2>Contact</h2>
+            <table style="width: 100%; text-align: left;">
+                <tr>
+                    <!-- Left Column: Image -->
+                    <td style="width: 30%; padding-right: 20px;">
+                        <img src="files/portrait.jpeg" alt="Portrait of Mohammed Rabib" style="width: 100%; max-width: 300px; height: auto; border-radius: 10px;">
+                    </td>
+                    <!-- Right Column: Details -->
+                    <td style="width: 70%; padding-left: 20px;">
+                        <h3>Mohammed Rabib</h3>
+                        <p>Email: <a href="mailto:sartajjr@gmail.com">sartajjr@gmail.com</a></p>
+                        <p>Phone: (469) 562 1059</p>
+                        <p>LinkedIn: <a href="https://www.linkedin.com/in/mohammed-rabib" target="_blank">www.linkedin.com/in/mohammed-rabib</a></p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+        <p>Contact me: <a href="mailto:sartajjr@gmail.com">sartajjr@gmail.com</a></p>
+    </footer>
+
+</body>
+</html>
+
